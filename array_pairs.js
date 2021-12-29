@@ -8,7 +8,7 @@ for(n in arr)
   {
     if(k != arr.length-1 && num != arr[k])
     {
-      console.log(num + "," + arr[++k]);
+      console.log(num + "," + arr[k++]);
     }
   }
 

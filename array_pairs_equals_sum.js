@@ -1,0 +1,28 @@
+//Google mock interview question
+
+//check if a sorted group of numbers consist of a pair that constitutes to a specific sum. If yes return true else retur fale.
+
+//----Naive approach---//
+
+let arr1 = [1,4,7,5,9];
+let sum = 8;
+
+function checkPairsEqualsSum()
+{
+  for(let i in arr1)
+  {
+    let num = arr1[i];
+    for(let j in arr1)
+    {
+      if(i != j && (arr1[i] + arr1[j] === sum))
+      {
+        return true;
+      }
+
+    }
+  }
+
+  return false;
+}
+
+console.log(checkPairsEqualsSum());

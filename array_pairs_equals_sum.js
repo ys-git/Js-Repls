@@ -28,6 +28,7 @@ function checkPairsEqualsSum()
 //console.log(checkPairsEqualsSum());
 
 //Time Complexity - O(n^2)
+//Space Complexity - O(1)
 
 //-------------------------------------------------------------
 
@@ -59,3 +60,4 @@ function checkPairsEqualsSum1()
 //console.log(checkPairsEqualsSum1());
 
 //Time Complexity - O(n)
+//Time Complexity - O(1)

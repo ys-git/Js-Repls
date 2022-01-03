@@ -11,3 +11,6 @@ for (n in arr) {
 
   console.log("---------------------------------");
 }
+
+//Time Complexity : O(n)
+//Space Complexity : O(1)
